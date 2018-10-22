@@ -1,5 +1,5 @@
 html {
-  font-family: Dosis, sans-serif;
+  font-family: Georgia, serif;
   box-sizing: border-box;
   background-color: #f0eee8;
   line-height: 1.5;
@@ -12,6 +12,11 @@ html {
 body {
   margin: 0;
   padding: 0;
+}
+
+h2 {
+  font-family: Dosis, sans-serif;
+  font-size: 1.5rem;
 }
 
 .link-card {
@@ -29,4 +34,49 @@ body {
 
 .link-card:hover {
   background-color: #cabdb2;
+}
+
+.link-card h2 {
+  font-size: 1.5rem;
+}
+
+dl {
+  list-style-type: none;
+  font-size: .875rem;
+  border-width: 2px;
+  border-style: solid;
+  border-color: #9a816d;
+  border-left: 0;
+  border-right: 0;
+  padding: 1rem;
+  padding-left: 0;
+}
+
+dt {
+  display: inline-block;
+  width: 20%;
+}
+
+dd {
+  display: inline-block;
+  font-style: italic;
+  text-align: left;
+  width: 55%;
+}
+
+.btn {
+  display: inline-block;
+  background-color: #785439;
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.125rem;
+  border-width: 3px;
+  border-radius: 8px;
+  border-style: solid;
+  border-color: #785439;
+}
+
+.link-card:hover .btn {
+  background-color: #512200;
+  border-color: #512200;
 }
