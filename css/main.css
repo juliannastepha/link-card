@@ -13,3 +13,20 @@ body {
   margin: 0;
   padding: 0;
 }
+
+.link-card {
+  background-color: #dcd4cd;
+  color: #512200;
+  text-decoration: none;
+  display: block;
+  border-width: 3px;
+  border-radius: 3px;
+  border-style: solid;
+  border-color: #9a816d;
+  margin: 1rem;
+  padding: 1rem;
+}
+
+.link-card:hover {
+  background-color: #cabdb2;
+}
